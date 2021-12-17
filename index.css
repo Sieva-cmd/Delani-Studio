@@ -51,5 +51,68 @@
     text-align: center;
     display: none;
 }
+.grid #work1, #work2, #work3, #work4{
+    width: 50%;
+   
+}
+#portofolio{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.grid #work5, #work6, #work7, #work8{
+    width: 50%;
+}
+#contactUs{
+    height: 100%;
+    width: auto;
+    margin-top: 40px;
+    background-image: url("images/backgrounds/c_image.jpg");
+    background-size: cover;
+}
+
+#contact{
+    text-align: center;
+    color: white;
+    
+}
+@media only screen
+and (min-width: 360px) 
+
+{ body{
+    font-size: 14px;
+}
+h1, h3, h3{
+    font-size: 14px;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.grid #development, #product{
+    margin-left: -40px;
+}
+.grid h4{
+    font-size: 14px;
+}
+#items1{
+    margin-bottom: 20px;
+    }
+    #items2{
+        margin-bottom: 20px;
+    }
+    #inputEmail, #inputName, #inputMessage{
+        background-color: transparent;
+        border-radius: 0px;
+        color: white;
+    }
+    ::placeholder{
+        color: white;
+        opacity: 1;
+    }
+
+}
+
 
 
