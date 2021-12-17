@@ -18,6 +18,14 @@ $(document).ready(function () {
         $("#devImage").toggle();
         $("#devP").hide();
     });
+    $("#productImage").click(function() {
+        $("#productP").toggle();
+        $("#productImage").hide();
+    });
+    $("#productP").click(function() {
+        $("#productImage").toggle();
+        $("#productP").hide();
+    });
  
  });
  
