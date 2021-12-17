@@ -113,6 +113,144 @@ h1, h3, h3{
     }
 
 }
+@media only screen
+and (min-width: 414px)
+
+{ body{
+    font-size: 14px;
+}
+h1, h3, h3{
+    font-size: 14px;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.grid #development, #product{
+    margin-left: -40px;
+}
+.grid h4{
+    font-size: 14px;
+}
+
+#items1{
+margin-bottom: 20px;
+}
+#items2{
+    margin-bottom: 20px;
+}
+#inputEmail, #inputName, #inputMessage{
+    background-color: transparent;
+    border-radius: 0px;
+    color: white;
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+}
+
+
+
+@media  only screen and(min-width:768px) {
+    .grid #work5, #work6, #work7, #work8{
+        width: 50%;
+    }
+    #services1{
+        margin-right: 200px;
+ 
+    }
+  #items1{
+      margin-right: -400px;
+  }
+  #services2{
+      margin-right: 200px;
+      margin-bottom: 200px;
+      
+  }
+  #items2{
+      margin-right: -400px;
+  }
+  #inputEmail, #inputName, #inputMessage{
+      background-color: transparent;
+      border-radius: 0px;
+      color: white;
+  }
+  ::placeholder{
+    color: white;
+    opacity: 1;
+}
+    
+}
+
+ 
+
+  
+
+@media screen 
+and (min-width:1024px)
+and (min-device-width: 1200px) 
+and (max-device-width: 1600px) 
+and (-webkit-min-device-pixel-ratio: 1){
+    .grid{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .grid #development{
+        width: 170px;
+    }
+   .grid h4{
+       text-align: center;
+   }
+   .grid #pro, #dev{
+       margin-left: -45px;
+   }
+   #services1{
+       margin-right: 200px;
+
+   }
+ #items1{
+     margin-right: -400px;
+ }
+ #services2{
+     margin-right: 200px;
+     
+ }
+ #items2{
+     margin-right: -400px;
+ }
+ #form{
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 40px;
+    color: white;
+
+}
+#inputMessage{
+    background-color: transparent;
+    color: white;
+    height: 250px;
+    width: 900px;
+    margin-bottom: 100px;
+}
+#inputEmail, #inputName{
+    background-color: transparent;
+    color: white;
+    width: 450px;
+    border-radius: 0px;
+}
+#inputEmail{
+    margin-left: 100px;
+    color: white;
+}
+::placeholder{
+    color: white;
+    opacity: 1;
+}
+ 
+}
 
 
 
