@@ -47,3 +47,9 @@
 .d-flex{
     margin-bottom: 100px;
 }
+#designP, #devP, #productP{
+    text-align: center;
+    display: none;
+}
+
+
