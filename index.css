@@ -92,14 +92,8 @@ and (min-width: 360px)
 h1, h3, h3{
     font-size: 14px;
 }
-.grid{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-.grid #development, #product{
-    margin-left: -40px;
-}
+
+
 .grid h4{
     font-size: 14px;
 }
@@ -118,6 +112,17 @@ h1, h3, h3{
         color: white;
         opacity: 1;
     }
+    #whatWeDo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #services1, #services2{
+       margin-left:100px ;
+    }
+   
+  
 
 }
 @media only screen
@@ -156,6 +161,15 @@ margin-bottom: 20px;
     color: white;
     opacity: 1;
 }
+#whatWeDo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#services1, #services2{
+    margin-left:100px ;
+ }
 }
 
 
@@ -188,6 +202,18 @@ margin-bottom: 20px;
     color: white;
     opacity: 1;
 }
+#whatWeDo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#items1, items2{
+    height: 50%;
+}
+#services1, #services2{
+    margin-left:400px ;
+ }
     
 }
 
@@ -255,6 +281,9 @@ and (-webkit-min-device-pixel-ratio: 1){
 ::placeholder{
     color: white;
     opacity: 1;
+}
+h3, h1{
+    font-size: 20px;
 }
  
 }
