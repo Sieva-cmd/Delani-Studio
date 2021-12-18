@@ -1,7 +1,4 @@
-var userName = document.getElementById("inputName").value;
-var email = document.getElementById("#inputName").value;
-var message = document.getElementById("#inputName").value;
-alert(userName + "we have received your message. Thank you fro reaching out to us");
+
 
 
 
