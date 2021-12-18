@@ -1,3 +1,11 @@
+var userName = document.getElementById("inputName").value;
+var email = document.getElementById("#inputName").value;
+var message = document.getElementById("#inputName").value;
+alert(userName + "we have received your message. Thank you fro reaching out to us");
+
+
+
+/* user Interface (front-End ) Logic*/
 $(document).ready(function () {
     $("#designImage").click(function() {
         $("#designP").toggle();
@@ -51,5 +59,13 @@ $(document).ready(function () {
       $("#work8").hover(function() { 
         $(".name8").toggle();  
       });
+
+      // $("form").submit(function(event) {
+      //   var name = $("#inputName").val();
+      //   var email = $("#inputName").val();
+      //   var message = $("#inputName").val();
+      //   alert(name + "we have received your message. Thank you fro reaching out to us");
+      //   event.preventDefault();
+      // });
 
  });
