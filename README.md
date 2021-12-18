@@ -11,10 +11,10 @@ Am a full stack web developer with enough experience to develop functional websi
 Delani studio is a system developed for software Development companies/Organisations.
 
 ## website image
-![Website image]()
+![Website image](https://github.com/Sieva-cmd/Delani-Studio/blob/master/images/image1.png)
 
 ## What we do
-![Website image]()
+![Website image](https://github.com/Sieva-cmd/Delani-Studio/blob/master/images/image%202.png)
 
 
 
