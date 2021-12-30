@@ -1,14 +1,10 @@
-
-
 # Delani studio
 
 #### By Sieva Lucia
 Am a full stack web developer with enough experience to develop functional websites.
 
-
-
 ## Description
-Delani studio is a system developed for software Development companies/Organisations.
+Delani studio is a system developed for software Development companies/Organisations. It deals with Design, Development  and product management.
 
 ## website image
 ![Website image](https://github.com/Sieva-cmd/Delani-Studio/blob/master/images/image1.png)
@@ -16,18 +12,13 @@ Delani studio is a system developed for software Development companies/Organisat
 ## What we do
 ![Website image](https://github.com/Sieva-cmd/Delani-Studio/blob/master/images/image%202.png)
 
-
-
-
-
-
 ## set up instructions
 -  Go to  Github  using the Link provided.
 -  Copy repository link in the Code section
 -  Clone it to your local machine Using the repository link.
 - open your terminal 
 - cd to your project folder
-- if you don't have a folder cd Documents and mkdir project
+- if you don't have a folder cd Documents and mkdir projects
 - cd myProject and write the command below to clone repository
 - git clone https://github.com/Sieva-cmd/Delani-Studio.git
 - You can costomise the project now according to your needs
