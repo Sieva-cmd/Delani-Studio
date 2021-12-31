@@ -92,15 +92,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
 @media only screen
 and (min-width: 360px) 
 
@@ -180,7 +171,8 @@ margin-bottom: 20px;
 
 
 
-@media  only screen and(min-width:768px) {
+@media  only screen 
+and(min-width: 768px) {
     .grid #work5, #work6, #work7, #work8{
         width: 50%;
     }
@@ -206,8 +198,9 @@ margin-bottom: 20px;
   }
   ::placeholder{
     color: white;
-    opacity: 1;
+    opacity: 0.5;
 }
+
     
 }
 
@@ -261,6 +254,7 @@ and (-webkit-min-device-pixel-ratio: 1){
     height: 250px;
     width: 900px;
     margin-bottom: 100px;
+    margin-left: 10px;
 }
 #inputEmail, #inputName{
     background-color: transparent;
@@ -272,12 +266,13 @@ and (-webkit-min-device-pixel-ratio: 1){
     margin-left: 100px;
     color: white;
 }
-::placeholder{
-    color: white;
-    opacity: 1;
-}
+
 h3, h1{
     font-size: 20px;
+}
+::placeholder{
+    color: white;
+    opacity: 0.5;
 }
  
 }
