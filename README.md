@@ -1,7 +1,7 @@
 # Delani studio
 
-#### By Sieva Lucia
-Am a full stack web developer with enough experience to develop functional websites.
+##Authors
+[sieva Lucia](https://github.com/Sieva-cmd)
 
 ## Description
 Delani studio is a system developed for software Development companies/Organisations. It deals with Design, Development  and product management.
